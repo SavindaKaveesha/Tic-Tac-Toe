@@ -36,9 +36,7 @@ public class Game {
 	private JTextField xCount;
 	private JTextField oCount;
 
-	/**
-	 * Launch the application.
-	 */
+//Launch the application.
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -52,9 +50,9 @@ public class Game {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+
+	 //Create the application.
+
 	public Game() {
 		initialize();
 	}
@@ -91,9 +89,9 @@ public class Game {
 		}
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
+
+	 //Initialize the contents of the frame.
+
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 900, 600);
